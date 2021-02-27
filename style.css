@@ -35,9 +35,18 @@ section {
     display: flex;
 }
 
+#About {
+    text-align: center;
+    margin-left: 50px;
+}
 #subbox {
     display:flex;
     margin-left: 90px;
+}
+
+#Work {
+    text-align: center;
+    margin-left: 50px;
 }
 
 #subbox2 {
@@ -103,6 +112,11 @@ footer {
 
 footer.h2 {
     font-size: 60%;
+}
+
+#Contact {
+    text-align: center;
+    margin-left: 50px;
 }
 
 ul li {
