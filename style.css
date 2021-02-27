@@ -69,14 +69,14 @@ section {
 
 #important {
     width: auto;
-    border: 5px solid green;
+    border: 5px solid rgb(97, 109, 97);
     padding: 50px;
     margin: 20px;   
 }
 
 p.sample {
     width: 300px;
-    border: 15px solid green;
+    /*border: 15px solid green;*/
     padding: 50px;
     margin: 20px;
     border-style: solid;
@@ -97,23 +97,27 @@ p.sample {
     flex-wrap: wrap;
 }
 
+/*
 h2 {
-    /*margin-left: 25px;*/
-    /* float: left; */
+    margin-left: 25px;
+    float: left; 
 }
 
-/* div.p {
+div.p {
     margin-right: 35px;
-} */
+} 
+*/
+
 footer {
     display: flex;
-    background-color: turquoise;
+    background-color: rgb(233, 226, 135);
+    
 }
-
+/*
 footer.h2 {
     font-size: 60%;
 }
-
+*/
 #Contact {
     text-align: center;
     margin-left: 50px;
@@ -121,6 +125,7 @@ footer.h2 {
 
 ul li {
     display: inline;
+    margin: 25px;
 }
 
 @media screen and (max-width: 992px) {
