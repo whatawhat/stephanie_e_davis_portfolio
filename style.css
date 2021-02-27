@@ -71,7 +71,11 @@ section {
     width: auto;
     border: 5px solid rgb(97, 109, 97);
     padding: 50px;
-    margin: 20px;   
+    margin: 20px;
+    background-image: url("images/binary.jpg");
+    opacity: .7;
+    background-size: contain;
+    color: #ffffff;
 }
 
 p.sample {
