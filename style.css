@@ -12,22 +12,25 @@ header {
 
 h1{
     font-size: 250%;
-    text-align: right;
+    text-align: center;
+    /*margin-top: 50px;*/
+    padding-top: 100px;
 }
 
 a {
-    text-align: justify;
-    font-size: x-large;
+    text-align: center;
+    /*font-size: x-large;*/
+    font-size: 125%;
     text-decoration: none;
-    color: darkgreen;
-    line-height: 1500%;
-    margin: 50px;
+    color: rgb(12, 4, 82);
+    line-height: 700%;
+    margin: 85px;
 }
-
+/*
 a.hover {
     color: black;
 }
-
+*/
 main {
     background-color: pink;
 
