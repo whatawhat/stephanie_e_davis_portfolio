@@ -1,3 +1,5 @@
+
+
 body {
 font-family: Verdana, Geneva, Tahoma, sans-seriè;
 }
@@ -19,7 +21,7 @@ a {
     text-decoration: none;
     color: darkgreen;
     line-height: 1500%;
-
+    margin: 50px;
 }
 
 a.hover {
@@ -30,10 +32,30 @@ main {
     background-color: pink;
 
 }
+
+section {
+    display: flex;
+}
+
+#subbox {
+    display:flex;
+    margin-left: 50px;
+}
+
+#subbox2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#row {
+    display: flex;
+
+}
 #sdhead{
-    height: 20%;
-    width: 20%;
-    
+    height: 100px;
+    width: 100px;
+   
 }
 
 #important {
@@ -60,8 +82,22 @@ p.sample {
     height: 200px;
 }
 */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+h2 {
+    /*margin-left: 25px;*/
+    /* float: left; */
+}
+
+/* div.p {
+    margin-right: 35px;
+} */
 footer {
+    display: flex;
     background-color: turquoise;
 }
 
@@ -73,20 +109,17 @@ ul li {
     display: inline;
 }
 
+@media screen and (max-width: 992px) {
+    
+}
 
 
-/*
-  footer {
-    display: flex;
-    justify-content: center;
-    padding: 2%;
-    background-color: #13293d;
-    color: #fff;
-  }
-  
-  @media screen and (max-width: 768px) {
-    header {
-      flex-direction: column;
+@media screen and (max-width: 768px) {
+    main{
+    flex-direction: column;
     }
-  }
-*/  
+}
+
+@media screen and (max-width: 576px) {
+    
+}
