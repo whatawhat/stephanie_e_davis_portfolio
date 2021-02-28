@@ -88,6 +88,32 @@ p.sample {
     border-color: grey;
 }
 
+
+#two {
+    background-image: url("images/chartcode.jpg");
+    background-size: 750px;
+    color: #ffffff;
+}
+#three {
+    background-image: url("images/greenboard.jpg");
+    background-size: 550px;
+    color: #ffffff;
+}
+#four {
+    background-image: url("images/webdev.png");
+    background-size: 101%;
+    color: #ffffff;
+}
+#five {
+    background-image: url("images/code.jpg");
+    background-size: 550px;
+    color: #ffffff;
+}
+
+p.sample {
+    border-style: solid;
+    
+}
 /*
 #two {
     box-sizing: border-box;
