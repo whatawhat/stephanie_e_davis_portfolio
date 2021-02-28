@@ -17,13 +17,18 @@ h1{
     padding-top: 100px;
 }
 
+#adjective {
+    text-align: center;
+    font-size: 120%;
+}
+
 a {
     text-align: center;
     /*font-size: x-large;*/
     font-size: 125%;
     text-decoration: none;
     color: rgb(12, 4, 82);
-    line-height: 700%;
+    line-height: 500%;
     margin: 100px;
 }
 
