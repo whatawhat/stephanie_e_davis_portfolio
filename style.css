@@ -127,8 +127,9 @@ p.sample {
 }
 
 footer {
-    display: flex;
-    background-color: rgb(233, 226, 135);    
+    text-align: center;
+    background-color: rgb(233, 226, 135);
+    padding: 20px;    
 }
 
 #Contact {
