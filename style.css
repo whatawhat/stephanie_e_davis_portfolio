@@ -66,11 +66,13 @@ section {
     max-height: 150px;
     /* width: 100px; */
     /* margin: 15px; */
+    padding-top: 10px;
 }
 
 #Abme {
     flex-grow: 5;
-    padding-left: 30px;
+    padding: 40px;
+    
 }
 
 #Work {
