@@ -151,16 +151,30 @@ main {
     border-color: red; */
 }
 
+#contactTop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+#subbox3 {
+    text-align: left;
+}
+#Contact {
+    text-align: center;
+    margin-left: 50px;
+}
+
+
 footer {
     text-align: center;
     background-color: rgb(233, 226, 135);
     padding: 20px;    
 }
 
-#Contact {
-    text-align: center;
-    margin-left: 50px;
-}
+
 
 ul li {
     display: inline;
