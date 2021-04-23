@@ -79,7 +79,7 @@ main {
 #Work {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content:left;
 }
 
@@ -120,29 +120,40 @@ main {
     margin: 20px;
     border-style: solid;
     border-width: 2px;
-    border-color: grey; */
+    border-color: grey; 
 } */
 
-
 #two {
+    flex-grow: 2;
     background-image: url("images/chartcode.jpg");
     background-size: 750px;
     color: #ffffff;
+    width: 200px;
+    height: 100px;
 }
 #three {
+    flex-grow: 2;
     background-image: url("images/greenboard.jpg");
     background-size: 550px;
     color: #ffffff;
+    width: 200px;
+    height: 100px;
 }
 #four {
+    flex-grow: 2;
     background-image: url("images/webdev.png");
     background-size: 101%;
     color: #ffffff;
+    width: 200px;
+    height: 100px;
 }
 #five {
+    flex-grow: 2;
     background-image: url("images/code.jpg");
     background-size: 550px;
     color: #ffffff;
+    width: 200px;
+    height: 100px;
 }
 
 /* p.sample {
