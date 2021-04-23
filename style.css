@@ -154,17 +154,17 @@ main {
 #contactTop {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    margin-left: 50px;
+    flex-wrap: wrap;
+    justify-content:left;
 }
 
 #subbox3 {
-    text-align: left;
+    text-align: center;
+    padding-left: 20px;
 }
 #Contact {
-    text-align: center;
-    margin-left: 50px;
+    text-align: left;
+    margin-left: 30px;
 }
 
 
