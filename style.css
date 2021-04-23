@@ -126,52 +126,52 @@ main {
 #section2 {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #two {
-    /* flex-grow: 2; */
     background-image: url("images/chartcode.jpg");
     background-size: 750px;
+    font-size: 150%;
     color: #ffffff;
-    width: 200px;
-    height: 100px;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    padding-top: 100px;
 }
 #three {
-    /* flex-grow: 2; */
     background-image: url("images/greenboard.jpg");
     background-size: 550px;
+    font-size: 150%;
     color: #ffffff;
-    width: 200px;
-    height: 100px;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    padding-top: 100px;
 }
 #four {
-    /* flex-grow: 2; */
-    background-image: url("images/webdev.png");
+    background-image: url("images/csscode.jpg");
     background-size: 101%;
+    font-size: 125%;
     color: #ffffff;
-    width: 200px;
-    height: 100px;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 #five {
-    /* flex-grow: 2; */
     background-image: url("images/code.jpg");
     background-size: 550px;
+    font-size: 150%;
     color: #ffffff;
-    width: 200px;
-    height: 100px;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    padding-top: 100px;
+    /* border-style: solid;
+    border-color: red; */
 }
-
-/* p.sample {
-    border-style: solid;
-    
-} */
-
-/* .flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
 
 footer {
     text-align: center;
