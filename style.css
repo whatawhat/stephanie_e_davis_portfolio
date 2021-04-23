@@ -155,7 +155,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:left;
+    justify-content: left;
 }
 
 #subbox3 {
@@ -163,8 +163,15 @@ main {
     padding-left: 20px;
 }
 #Contact {
-    text-align: left;
-    margin-left: 30px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+
+ul li {
+    
+    display: inline;
+    margin: 15px;
 }
 
 
@@ -173,14 +180,6 @@ footer {
     background-color: rgb(233, 226, 135);
     padding: 20px;    
 }
-
-
-
-ul li {
-    display: inline;
-    margin: 25px;
-}
-
 @media screen and (max-width: 992px) {
     
 }
