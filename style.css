@@ -123,8 +123,14 @@ main {
     border-color: grey; 
 } */
 
+#section2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 #two {
-    flex-grow: 2;
+    /* flex-grow: 2; */
     background-image: url("images/chartcode.jpg");
     background-size: 750px;
     color: #ffffff;
@@ -132,7 +138,7 @@ main {
     height: 100px;
 }
 #three {
-    flex-grow: 2;
+    /* flex-grow: 2; */
     background-image: url("images/greenboard.jpg");
     background-size: 550px;
     color: #ffffff;
@@ -140,7 +146,7 @@ main {
     height: 100px;
 }
 #four {
-    flex-grow: 2;
+    /* flex-grow: 2; */
     background-image: url("images/webdev.png");
     background-size: 101%;
     color: #ffffff;
@@ -148,7 +154,7 @@ main {
     height: 100px;
 }
 #five {
-    flex-grow: 2;
+    /* flex-grow: 2; */
     background-image: url("images/code.jpg");
     background-size: 550px;
     color: #ffffff;
