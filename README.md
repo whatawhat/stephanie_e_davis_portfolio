@@ -1,4 +1,13 @@
 # stephanie_e_davis_portfolio
+## Stephanie E. Davis Portfolio
+##### Table of Contents
+1. [Introduction](#introduction)
+2. [Projects](#projects)
+3. [Issues](#issues)
+4. [Insights](#insights)
+5. [Future Plans](#future-plans)
+6. [Live URL](#live-url)
+
 ## Introduction
 
 ## Projects
@@ -19,3 +28,6 @@ What I've learned doing this project:
 
 ## Future Plans
 I would like to add a link so when it's mobile friendly, when the user/viewer clicks on my phone number, they can call directly. I will add more projects as I complete them. 
+
+## Live URL
+
