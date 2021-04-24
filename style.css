@@ -90,6 +90,9 @@ main {
     margin-left: 30px;
 }
 
+#important.a:link #important.a:visited {
+    color: red;
+}
 #section2 {
     display: flex;
     flex-direction: row;
