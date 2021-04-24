@@ -288,7 +288,7 @@ footer {
         header {
             background-image: url("images/watercolor2.jpg");
             background-repeat: no-repeat;
-            height: 250px;
+            height: 175px;
         }
         
         h1{
@@ -321,7 +321,7 @@ footer {
             flex-direction: row;
             flex-wrap: nowrap;
             justify-content: space-around;
-            margin-left: 50px;
+            margin-left: 40px;
         }
         
         #subbox {
@@ -339,7 +339,7 @@ footer {
         
         #Abme {
             flex-grow: 5;
-            padding: 30px;
+            padding: 0px 20px;
         }
         
         #Work {
@@ -350,8 +350,8 @@ footer {
         }
         
          #subbox2 {
-            flex-grow: 4;
-            padding-left: 45px;
+            flex-grow: 2;
+            padding-left: 35px;
             text-align: center;
         }
         
@@ -359,11 +359,11 @@ footer {
             background-image: url("images/binary.jpg");
             background-size: 625px;
             color: white;
-            width: 1000px;
+            width: 70%;
             height: 75px;
             text-align: center;
             padding-top: 50px;
-            padding-left: 150px;
+            padding-left: 130px;
             margin-left: 30px;
         }
         
@@ -377,42 +377,42 @@ footer {
         #two {
             background-image: url("images/chartcode.jpg");
             background-size: 750px;
-            font-size: 150%;
+            font-size: 130%;
             color: #ffffff;
             width: 300px;
             height: 100px;
             text-align: center;
-            padding-top: 100px;
+            padding-top: 50px;
         }
         #three {
             background-image: url("images/greenboard.jpg");
             background-size: 550px;
-            font-size: 150%;
+            font-size: 130%;
             color: #ffffff;
             width: 300px;
             height: 100px;
             text-align: center;
-            padding-top: 100px;
+            padding-top: 50px;
         }
         #four {
             background-image: url("images/csscode.jpg");
             background-size: 101%;
-            font-size: 150%;
+            font-size: 130%;
             color: #ffffff;
             width: 300px;
             height: 100px;
             text-align: center;
-            padding-top: 100px;
+            padding-top: 50px;
         }
         #five {
             background-image: url("images/code.jpg");
             background-size: 550px;
-            font-size: 150%;
+            font-size: 130%;
             color: #ffffff;
             width: 300px;
             height: 100px;
             text-align: center;
-            padding-top: 100px;
+            padding-top: 50px;
             /* border-style: solid;
             border-color: red; */
         }
@@ -430,20 +430,21 @@ footer {
         }
         #Contact {
             text-align: center;
-            margin-left: 100px;
+            margin-left: 30px;
             font-size: 25px;
         }
         
         ul li {
             
             display: inline;
-            margin: 15px;
+            margin: 15px 0px;
+            font-size: 50%;
         }
         
         footer {
             text-align: center;
             background-color: rgb(233, 226, 135);
-            padding: 20px;    
+            padding: 10px;    
         }
         
 }
