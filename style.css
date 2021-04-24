@@ -528,7 +528,7 @@ footer {
         justify-content: center;
     }
     
-    #two {
+    #two #three #four #five {
         /* background-image: url("images/chartcode.jpg"); */
         background-size: 0px;
         font-size: 100%;
@@ -540,45 +540,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-    #three {
-        /* background-image: url("images/greenboard.jpg"); */
-        background-size: 0px;
-        font-size: 100%;
-        color: darkblue;
-        width: 200px;
-        height: 75px;
-        text-align: center;
-        padding-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #four {
-        /* background-image: url("images/csscode.jpg"); */
-        background-size: 0px;
-        font-size: 100%;
-        color: darkblue;
-        width: 200px;
-        height: 75px;
-        text-align: center;
-        padding-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #five {
-        /* background-image: url("images/code.jpg"); */
-        background-size: 0px;
-        font-size: 100%;
-        color: darkblue;
-        width: 200px;
-        height: 75px;
-        text-align: center;
-        padding-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        /* border-style: solid;
-        border-color: red; */
-    }
-    
+
     #contactTop {
         display: flex;
         flex-direction: column;
