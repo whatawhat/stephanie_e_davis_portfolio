@@ -11,7 +11,6 @@ header {
 h1{
     font-size: 250%;
     text-align: center;
-    /*margin-top: 50px;*/
     padding-top: 100px;
 }
 
@@ -29,11 +28,9 @@ h1{
 
 a {
     text-align: center;
-    /*font-size: x-large;*/
     font-size: 125%;
     text-decoration: none;
     color: rgb(12, 4, 82);
-    /*line-height: 50%;*/
     margin: 15px;
 }
 
@@ -41,17 +38,11 @@ main {
     background-color: rgb(245, 207, 213);
 }
 
-/* section {
-    display: flex;
-} */
-
 #About {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    /* align-items: flex-start; */
-    /*text-align: center;*/
     margin-left: 50px;
 }
 
@@ -92,7 +83,6 @@ main {
     background-repeat: repeat;
     color: white;
     max-width: 80%;
-    /* width: 900px; */
     height: 90px;
     text-align: center;
     padding-top: 50px;
@@ -146,8 +136,6 @@ main {
     height: 150px;
     text-align: center;
     padding-top: 100px;
-    /* border-style: solid;
-    border-color: red; */
 }
 
 #contactTop {
@@ -167,7 +155,6 @@ main {
 }
 
 ul li {
-    
     display: inline;
     margin: 15px;
 }
@@ -202,21 +189,16 @@ footer {
         
         #important {
             background-image: url("images/binary.jpg");
-            /* background-size: 325px; */
             background-size: 100%;
             background-repeat: repeat-x;
             color: white;
             max-width: 75%;
-            /* width: 685px; */
             height: 65px;
             text-align: center;
             padding-top: 50px;
-            /* padding-left: 120px; */
             padding-left: 150px;
             margin-left: 30px;
-            /* padding-right: 30px; */
         }
-
 
         #section2 {
             display: flex;
@@ -275,8 +257,8 @@ footer {
         
         #subbox3 {
             text-align: center;
-            /*padding-left: 20px;*/
         }
+
         #Contact {
             text-align: center;
             margin-left: 30px;
@@ -413,8 +395,6 @@ footer {
             height: 100px;
             text-align: center;
             padding-top: 50px;
-            /* border-style: solid;
-            border-color: red; */
         }
         
         #contactTop {
@@ -506,7 +486,6 @@ footer {
     }
     
     #Abme {
-        /* flex-grow: 2; */
         padding-left: 20px;
         font-size: 80%;
     }
