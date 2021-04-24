@@ -89,10 +89,12 @@ main {
 
 #important {
     background-image: url("images/binary.jpg");
-    background-size: 625px;
+    background-size: 100%;
+    background-repeat: repeat;
     color: white;
-    width: 1000px;
-    height: 75px;
+    max-width: 80%;
+    /* width: 900px; */
+    height: 90px;
     text-align: center;
     padding-top: 50px;
     padding-left: 150px;
@@ -201,7 +203,7 @@ footer {
         
         #important {
             background-image: url("images/binary.jpg");
-            background-size: 625px;
+            background-size: 325px;
             color: white;
             width: 685px;
             height: 65px;
@@ -209,6 +211,7 @@ footer {
             padding-top: 50px;
             padding-left: 120px;
             margin-left: 30px;
+            padding-right: 30px;
         }
         
         #two {
