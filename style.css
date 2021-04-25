@@ -91,9 +91,9 @@ main {
     /* padding-top: 30px;*/
     padding-left: 1150px;
     /*margin-left: 30px; */
-    padding: 50px 365px;
+    padding: 50px 250px;
     border: 100px;
-    margin-left: 110px;
+    margin-left: 70px;
 }
 
 #section2 {
@@ -194,17 +194,35 @@ footer {
             justify-content: space-around;
         }
         
+        #Work {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content:left;
+        }
+        
+         #subbox2 {
+            flex-grow: 4;
+            padding-left: 45px;
+            text-align: center;
+            /* padding-right: 90px; */
+        }
+        
+
         #important {
             background-image: url("images/binary.jpg");
-            background-size: 100%;
-            background-repeat: repeat-x;
+            background-size: 560px;
+            background-repeat: no-repeat;
             color: white;
-            max-width: 75%;
-            height: 65px;
-            text-align: center;
-            padding-top: 50px;
-            padding-left: 150px;
-            margin-left: 30px;
+            /*width: 500px;*/
+            padding-left: 260px;
+            padding-right: 230px;
+            margin-left: 58px;
+            margin-right: 73px;
+            border-right: 10px;
+            border-left: 10px;
+            font-size: 100%
+            
         }
 
         #section2 {
@@ -505,7 +523,7 @@ footer {
     }
     
      #subbox2 {
-        flex-grow: 4;
+        flex-grow: ;
         padding-left: 45px;
         text-align: center;
     }
@@ -516,10 +534,12 @@ footer {
         color: darkblue;
         width: 60%;
         height: 50px;
-        text-align: left;
+        text-align: center;
         padding-top: 50px;
-        padding-left: 150px;
-        margin-left: 30px;
+        padding-left: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-right: 20px;
     }
     
     #section2 {
