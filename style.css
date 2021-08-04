@@ -144,10 +144,10 @@ span {
     padding-top: 100px;
 }
 #four {
-    background-image: url("images/csscode.jpg");
-    background-size: 101%;
-    font-size: 150%;
-    color: #ffffff;
+    background-image: url("images/workday.png");
+    background-size: 95%;
+    font-size: 20px;
+    color: #000000;
     width: 450px;
     height: 100px;
     text-align: center;
