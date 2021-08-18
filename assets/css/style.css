@@ -13,7 +13,7 @@ header {
 }
 
 #bodyheader {
-    background-color: #92140C;
+    background-color: #6D1A36;
     width: 100%;
 }
 
@@ -21,13 +21,13 @@ h1{
     font-size: 250%;
     text-align: center;
     padding-top: 30px;
-    color: #C1B4AE;
+    color: #FCD0A1;
 }
 
 #adjective {
     text-align: center;
     font-size: 120%;
-    color: #C1B4AE;
+    color: #FCD0A1;
 }
 
 #nav {
@@ -35,7 +35,7 @@ h1{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    color: #C1B4AE;
+    color: #FCD0A1;
     border-bottom: 20px;
 }
 
@@ -43,12 +43,12 @@ a {
     text-align: center;
     font-size: 125%;
     text-decoration: none;
-    color: #C1B4AE;
+    color: #FCD0A1;
     margin: 15px;
 }
 
 main {
-    background-color: #C1B4AE;
+    background-color: #B1B695;
 }
 
 #About {
@@ -93,12 +93,12 @@ span {
 }
 
 .repolink {
-    background-color: #92140C;
+    background-color: #6D1A36;
     color: white;
 }
 
 .deployedlink {
-    background-color: #C08773;
+    background-color: #53917E;
     color: white;
 }
 #section2 {
@@ -141,8 +141,8 @@ ul li {
 }
 footer {
     text-align: center;
-    background-color: #92140C;
-    color: #C1B4AE;
+    background-color: #6D1A36;
+    color: #FCD0A1;
     padding: 20px;
     font-size: 20px;  
 }
@@ -304,8 +304,8 @@ footer {
         
         footer {
             text-align: center;
-            background-color: #92140C;
-            color: #C1B4AE;
+            background-color: #6D1A36;
+            color: #FCD0A1;
             padding: 10px;    
         }
         
@@ -415,8 +415,8 @@ footer {
     
     footer {
         text-align: center;
-        background-color: #92140C;
-        color: #C1B4AE;
+        background-color: #6D1A36;
+        color: #FCD0A1;
         padding: 20px;    
     }
     
