@@ -1,22 +1,33 @@
 body {
-font-family: Verdana, Geneva, Tahoma, sans-seriè;
+    font-family: 'Livvic', sans-serif;
+    margin: 0;
+    padding: 0;
+/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 header {
-    background-image: url("../../images/watercolor2.jpg");
-    background-repeat: no-repeat;
-    height: 300px;
+    height: 200px;
+    font-size: 20px;
+    width: 100vw;
+    left: 0px;
+}
+
+#bodyheader {
+    background-color: #92140C;
+    width: 100%;
 }
 
 h1{
     font-size: 250%;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 30px;
+    color: #C1B4AE;
 }
 
 #adjective {
     text-align: center;
     font-size: 120%;
+    color: #C1B4AE;
 }
 
 #nav {
@@ -24,18 +35,20 @@ h1{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    color: #C1B4AE;
+    border-bottom: 20px;
 }
 
 a {
     text-align: center;
     font-size: 125%;
     text-decoration: none;
-    color: rgb(12, 4, 82);
+    color: #C1B4AE;
     margin: 15px;
 }
 
 main {
-    background-color: rgb(245, 207, 213);
+    background-color: #C1B4AE;
 }
 
 #About {
@@ -46,58 +59,28 @@ main {
 }
 
 #subbox {
-    /* padding-right: 20px; */
+    padding-right: 10px; 
     text-align: center;
     padding-left: 20px;
-}
-
-#aboutme {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-#sdhead {
-    max-width: 150px;
-    max-height: 150px;
-    padding-top: 10px;
-    padding-bottom: 80px;
-    margin-left: 50px;
+    /* margin-left: -225px; */
 }
 
 #Abme {
-    width: 950px;
-    padding: 25px;
+    /* width: 950px; */
+    padding-right: 25px;
 }
 
-#Work {
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: nowrap; */
-    justify-content:space-evenly;
+
+/* #subbox2 {
+    margin-left: -70px;
+} */
+#cardtop {
+    background-color: #BE7C4D;;
+    color:#353238;
 }
 
- #subbox2 {
-    padding-left: 45px;
-    text-align: center;
-    /* padding-right: 90px; */
-}
-
-#important {
-    /* background-image: url("images/binary.jpg");
-    background-size: 500px 200px; */
-    color: white;
-    /* background-repeat: repeat; */
-    /*max-width: 80%;*/
-    width: 85%;
-    height: 200px;
-    text-align: center;
-    /* padding-top: 30px;*/
-    /* padding-left: 1150px; */
-    /*margin-left: 30px; */
-    /* padding: 50px 250px; */
-    /* border: 100px; */
-    /* margin-left: 70px; */
+.workcard {
+    margin-left: 190px;
 }
 
 span {
@@ -109,59 +92,20 @@ span {
     font-size: 150%;
 }
 
-#bigcontainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+.repolink {
+    background-color: #92140C;
+    color: white;
 }
 
+.deployedlink {
+    background-color: #C08773;
+    color: white;
+}
 #section2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-#two {
-    background-image: url("../../images/passwordGen.png");
-    background-size: 460px;
-    font-size: 150%;
-    color: #000000;
-    width: 450px;
-    height: 100px;
-    text-align: center;
-    padding-top: 100px;
-}
-#three {
-    background-image: url("../../images/codequizOne.png");
-    background-size: 475px;
-    font-size: 25px;
-    color: #000000;
-    width: 450px;
-    height: 100px;
-    text-align: center;
-    padding-top: 100px;
-}
-#four {
-    background-image: url("../../images/workday.png");
-    background-size: 95%;
-    font-size: 20px;
-    color: #000000;
-    width: 450px;
-    height: 100px;
-    text-align: center;
-    padding-top: 100px;
-}
-#five {
-    background-image: url("../../images/code.jpg");
-    background-size: 550px;
-    font-size: 150%;
-    color: #ffffff;
-    width: 450px;
-    height: 100px;
-    text-align: center;
-    padding-top: 100px;
 }
 
 #contactTop {
@@ -175,27 +119,37 @@ span {
     text-align: center;
     padding-left: 20px;
 }
-#Contact {
+
+/* #Contact {
     text-align: center;
     margin-left: 200px;
-}
+} */
 
 ul li {
     display: inline;
     margin: 15px;
+    color: black;
 }
 
+#contact {
+    /* padding-left: -25px; */
+    margin-left: -225px;
+}
+.foot {
+    color: black;
+  
+}
 footer {
     text-align: center;
-    background-color: rgb(233, 226, 135);
-    padding: 20px;    
+    background-color: #92140C;
+    color: #C1B4AE;
+    padding: 20px;
+    font-size: 20px;  
 }
 
 @media screen and (max-width: 992px) {
     
-            header {
-            background-image: url("images/watercolor2.jpg");
-            background-repeat: no-repeat;
+        header {
             height: 200px;
             max-width: 100%;
         }
@@ -219,29 +173,9 @@ footer {
             flex-wrap: nowrap;
             justify-content:left;
         }
-        
-         #subbox2 {
-            flex-grow: 4;
-            padding-left: 45px;
-            text-align: center;
-            /* padding-right: 90px; */
-        }
-        
 
-        #important {
-            background-image: url("images/binary.jpg");
-            background-size: 560px;
-            background-repeat: no-repeat;
-            color: white;
-            /*width: 500px;*/
-            padding-left: 260px;
-            padding-right: 230px;
-            margin-left: 58px;
-            margin-right: 73px;
-            border-right: 10px;
-            border-left: 10px;
-            font-size: 100%
-            
+        .workcard {
+            margin-left: 175px;
         }
 
         #section2 {
@@ -249,47 +183,6 @@ footer {
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
-        }
-        
-        #two {
-            background-image: url("images/chartcode.jpg");
-            background-size: 750px;
-            font-size: 125%;
-            color: #ffffff;
-            width: 300px;
-            height: 100px;
-            text-align: center;
-            padding-top: 75px;
-        }
-        #three {
-            background-image: url("images/greenboard.jpg");
-            background-size: 550px;
-            font-size: 125%;
-            color: #ffffff;
-            width: 300px;
-            height: 100px;
-            text-align: center;
-            padding-top: 75px;
-        }
-        #four {
-            background-image: url("images/csscode.jpg");
-            background-size: 101%;
-            font-size: 125%;
-            color: #ffffff;
-            width: 300px;
-            height: 100px;
-            text-align: center;
-            padding-top: 75px;
-        }
-        #five {
-            background-image: url("images/code.jpg");
-            background-size: 550px;
-            font-size: 125%;
-            color: #ffffff;
-            width: 300px;
-            height: 100px;
-            text-align: center;
-            padding-top: 75px;
         }
         
         #contactTop {
@@ -312,8 +205,6 @@ footer {
 
 @media screen and (max-width: 768px) {
         header {
-            background-image: url("images/watercolor2.jpg");
-            background-repeat: no-repeat;
             height: 175px;
         }
         
@@ -334,13 +225,12 @@ footer {
             text-align: center;
             font-size: 125%;
             text-decoration: none;
-            color: rgb(12, 4, 82);
             margin: 5px;
         }
         
-        main {
+        /* main {
             background-color: rgb(245, 207, 213);
-        }
+        } */
         
         #About {
             display: flex;
@@ -351,16 +241,19 @@ footer {
         }
         
         #subbox {
-            flex-grow: 4;
+            /* flex-grow: 4; */
             padding-right: 20px;
             text-align: center;
         }
         
         #sdhead{
-            flex-grow: 2;
+            /* flex-grow: 2; */
             max-width: 100px;
             max-height: 100px;
             padding-top: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         #Abme {
@@ -381,66 +274,10 @@ footer {
             text-align: center;
         }
         
-        #important {
-            background-image: url("images/binary.jpg");
-            background-size: 625px;
-            color: white;
-            width: 70%;
-            height: 75px;
-            text-align: center;
-            padding-top: 50px;
-            padding-left: 130px;
-            margin-left: 30px;
+        .workcard {
+            margin-left: 135px;
         }
-        
-        #section2 {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-        }
-        
-        #two {
-            background-image: url("images/chartcode.jpg");
-            background-size: 750px;
-            font-size: 130%;
-            color: #ffffff;
-            width: 300px;
-            height: 100px;
-            text-align: center;
-            padding-top: 50px;
-        }
-        #three {
-            background-image: url("images/greenboard.jpg");
-            background-size: 550px;
-            font-size: 130%;
-            color: #ffffff;
-            width: 300px;
-            height: 100px;
-            text-align: center;
-            padding-top: 50px;
-        }
-        #four {
-            background-image: url("images/csscode.jpg");
-            background-size: 101%;
-            font-size: 130%;
-            color: #ffffff;
-            width: 300px;
-            height: 100px;
-            text-align: center;
-            padding-top: 50px;
-        }
-        #five {
-            background-image: url("images/code.jpg");
-            background-size: 550px;
-            font-size: 130%;
-            color: #ffffff;
-            width: 300px;
-            height: 100px;
-            text-align: center;
-            padding-top: 50px;
-        }
-        
+
         #contactTop {
             display: flex;
             flex-direction: row;
@@ -462,12 +299,13 @@ footer {
             
             display: inline;
             margin: 15px 0px;
-            font-size: 50%;
+            /* font-size: 50%; */
         }
         
         footer {
             text-align: center;
-            background-color: rgb(233, 226, 135);
+            background-color: #92140C;
+            color: #C1B4AE;
             padding: 10px;    
         }
         
@@ -476,8 +314,6 @@ footer {
 @media screen and (max-width: 576px) {
     
      header {
-        background-image: url("images/watercolor2.jpg");
-        background-repeat: no-repeat;
         height: 140px;
     }
     
@@ -503,7 +339,6 @@ footer {
         text-align: center;
         font-size: 100%;
         text-decoration: none;
-        color: rgb(12, 4, 82);
     }
     
     #About {
@@ -531,7 +366,7 @@ footer {
     
     #Abme {
         padding-left: 20px;
-        font-size: 80%;
+        font-size: 100%;
     }
     
     #Work {
@@ -545,75 +380,14 @@ footer {
         padding-left: 45px;
         text-align: center;
     }
-    
-    #important {
-        /* background-image: url("images/binary.jpg"); */
-        background-size: 0px;
-        color: darkblue;
-        width: 60%;
-        height: 50px;
-        text-align: center;
-        padding-top: 50px;
-        padding-left: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding-right: 20px;
+    .workcard {
+        margin-left: auto;
     }
-    
     #section2 {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
-    }
-    
-    #two {
-        /* background-image: url("images/chartcode.jpg"); */
-        background-size: 0px;
-        font-size: 100%;
-        color: darkblue;
-        width: 200px;
-        height: 75px;
-        text-align: center;
-        padding-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #three {
-        /* background-image: url("images/greenboard.jpg"); */
-        background-size: 0px;
-        font-size: 100%;
-        color: darkblue;
-        width: 200px;
-        height: 75px;
-        text-align: center;
-        padding-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #four {
-        /* background-image: url("images/csscode.jpg"); */
-        background-size: 0px;
-        font-size: 100%;
-        color: darkblue;
-        width: 200px;
-        height: 75px;
-        text-align: center;
-        padding-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #five {
-        /* background-image: url("images/code.jpg"); */
-        background-size: 0px;
-        font-size: 100%;
-        color: darkblue;
-        width: 200px;
-        height: 75px;
-        text-align: center;
-        padding-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
     }
     
     #contactTop {
@@ -634,14 +408,15 @@ footer {
     
     ul li {
         margin: 0px 100px;
-        font-size: 60%;
+        /* font-size: 60%; */
         flex-basis: 300px;
         align-self: center;
     }
     
     footer {
         text-align: center;
-        background-color: rgb(233, 226, 135);
+        background-color: #92140C;
+        color: #C1B4AE;
         padding: 20px;    
     }
     
