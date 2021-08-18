@@ -3,15 +3,26 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Stephanie E. Davis Portfolio</title>
+  <title>Stephanie E. Davis Portfolio</title>
 </head>
 
 <!-- Heading 1: Name
 Links: About Me, Work, Contact Me, and Resume
 -->
 
+
 <body>
+    <div class="container-fluid" id="bodyheader">
     <header>
         <h1>Stephanie E. Davis</h1>
         <h2 id="adjective">Educator | Writer | Innovative</h2>
@@ -22,64 +33,188 @@ Links: About Me, Work, Contact Me, and Resume
             <a href="./assets/resumes/SDavis Resume 08.25.20.pdf" target="_blank">Resume</a>
         </div>
     </header>
+</div>
 
     <main>
-        <section id="About">
-            <h2 id="subbox">About Me</h2>
-            <!-- <div id="subbox"> -->
-            <!-- <div id="aboutme"> -->
-            <img id="sdhead" src="images/sdheadshot.jpg" alt="Stephanie Davis head shot">
-            <p id="Abme">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quis deleniti alias repudiandae
-                cupiditate
-                nostrum distinctio provident! Possimus tenetur earum quo! Corrupti quidem labore deleniti adipisci
-                deserunt
-                doloribus nemo eveniet!</p>
-                <!-- </div> -->
-        </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                <h2 id="subbox">About Me</h2>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                <img id="sdhead" src="./images/sdheadshot.jpg" class="img-fluid" alt="Stephanie Davis head shot">
+            </div>
+            <div class="ol-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <p id="Abme">I love puzzles. Some of my favorite puzzles include Sudoku, Killer Sudoku, and Samurai Sudoku. I enjoy jigsaw puzzles and even logic puzzles. My love for puzzles transfers to my career. I love challenges and enjoy problem solving and developing a solution or more if the problem calls for it.<br><br>
+                
+            I teach students from a variety of levels who are blind or have a visual impairment. I collaborate with the educational team for each student. I hear problems from my fellow colleagues and have wanted to solve a new problem which led me to work towards becoming a web developer. I am very interested in web accessibility for everyone.<br><br>
+                
+            I apply my love for puzzles to help me grow and develop in the field of web development.<br><br>
+                
+            Feel free to reach out if you’d like to connect.</p>
+            </div>
+        </div>
+            </section>
+    </div>
 
-        <section id="Work">
-            <h2 id="subbox2">Work</h2>
-            <div id="bigcontainer">
-                <a href="https://whatawhat.github.io/accessible_horiseon/" target="_blank">
-                <img id="important" src="./images/binary.jpg"/>
-                    </a> <span>Accessible Horiseon (HTML)</span>
-                <!-- <p id="important"> <a href="https://whatawhat.github.io/accessible_horiseon/" target="_blank">CSS Style Cheat Sheet<br>
-                    HTML and CSS</p> -->
-                <div id="section2">
-                    <a href="https://whatawhat.github.io/password_generator/" target="_blank">
-                    <p id="two">Password Generator<br>
-                        JavaScript</p></a>
-                    <a href="https://whatawhat.github.io/codequiz/" target="_blank">
-                    <p id="three"><br>Code Quiz<br>
-                        JavaScript</p></a>
-                    <a href="https://whatawhat.github.io/work_scheduler/" target="_blank">
-                    <p id="four"><br>Work Day Scheduler<br>
-                        Third Party API</p></a>
-                    <p id="five">Weather Tracker<br>
-                        API</p>
+    <div class="container">
+        <div class="row">
+            <div class="ol-xs-12 col-sm-3 col-md-3 col-lg-2">
+                <h2 id="subbox2">Work</h2>
+            </div>
+            <div class="ol-xs-12 col-sm-9 col-md-9 col-lg-10">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h4>Fitness Tracker</h4>
+                        </div>
+                        <div>
+                        <img class="card-img" src="./images/FitnessTrackHome.png" class="img-fluid"/>
+                        </div>
+
+                        <div>
+                        <a href="https://github.com/whatawhat/workout_tracker" target="_blank" class="btn btn-sm active repolink" role="button">Repo Link</a>
+                        <a href="https://aqueous-beyond-78787.herokuapp.com/" class="btn btn-sm active deployedlink" role="button">Deployed Link</a>
+                        </div>
+                    </div>
+            </div>
+
+    <div class="container workcard">
+        <div class=row>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mt-3">
+                <div class="card text-center">
+                    <div class="card-header" class="cardtop">
+                        <h4>Password Generator</h4>
+                    </div>
+                    <div>
+                        <img class="card-img" src="images/passwordGen.png"/>
+                    </div>
+                    <div>
+                        <a href="https://whatawhat.github.io/password_generator/" target="_blank" class=" btn btn-sm active deployedlink" role="button">Deployed Link</a>
+                        <a href="https://github.com/whatawhat/password_generator" class="btn btn-sm active repolink" role="button">Repo Link</a>
+                    </div>
                 </div>
             </div>
 
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mt-3">
+                <div class="card text-center h-100">
+                    <div class="card-header" class="cardtop">
+                        <h4>Code Quiz</h4>
+                    </div>
+                    <div>
+                        <img class="card-img" src="images/codequizOne.png"/>
+                    </div>
+                    <div>
+                        <a href="https://github.com/whatawhat/codequiz" target="_blank" class="btn btn-sm active deployedlink" role="button">Deployed Link</a>
+                        <a href="https://whatawhat.github.io/codequiz/" target="_blank" class="btn btn-sm active repolink" role="button">Repo Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mt-3">
+                <div class="card text-center">
+                    <div class="card-header" class="cardtop">
+                        <h4>Work Day Scheduler</h4>
+                    </div>
+                    <div>
+                        <img class="card-img" src="images/workday.png"/>
+                    </div>
+                    <div>
+                        <a href="https://github.com/whatawhat/work_scheduler" target="_blank" class="btn btn-sm active deployedlink" role="button">Deployed Link</a>
+                        <a href="https://whatawhat.github.io/work_scheduler/" target="_blank" class="btn btn-sm active repolink" role="button">Repo Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mt-3">
+                <div class="card text-center h-100">
+                    <div class="card-header" class="cardtop">
+                        <h4>Weather Dashboard</h4>
+                    </div>
+                    <div>
+                        <img class="card-img" src="images/Weatherdash1.png"/>
+                    </div>
+                    <div>
+                        <a href="https://github.com/whatawhat/weather_dashboard" target="_blank" class="btn btn-sm active deployedlink" role="button">Deployed Link</a>
+                        <a href="https://whatawhat.github.io/weather_dashboard/" target="_blank" class="btn btn-sm active repolink" role="button">Repo Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mt-3">
+                <div class="card text-center h-100">
+                    <div class="card-header" class="cardtop">
+                        <h4>Team Generator</h4>
+                    </div>
+                    <div>
+                        <img class="card-img" src="images/team_generate_pic.png"/>
+                    </div>
+                    <div>
+                        <a href="https://github.com/whatawhat/team_profile" target="_blank" class="btn btn-sm active deployedlink" role="button">Deployed Link</a>
+                        <a href="https://drive.google.com/file/d/1Y1387oLMv15UVaobafnYd0-dpTm5bjFo/view" target="_blank" class="btn btn-sm active repolink" role="button">Video Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mt-3">
+                <div class="card text-center">
+                    <div class="card-header" class="cardtop">
+                        <h4>Note Taker</h4>
+                    </div>
+                    <div>
+                        <img class="card-img" src="images/introNoteTracker4.png"/>
+                    </div>
+                    <div>
+                        <a href="https://github.com/whatawhat/note_taker" target="_blank" class="btn btn-sm active deployedlink" role="button">Deployed Link</a>
+                        <a href="https://peaceful-bayou-22212.herokuapp.com/" target="_blank" class="btn btn-sm active repolink" role="button">Repo Link</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+            
+             
+
         </section>
+        </div>
 
 
         </section>
-
-
-        <section id="contactTop">
-            <h2 id="subbox3">Contact Me</h2>
-            <ul id="Contact">
-                <li>410-555-5555</li>
-                <li>sampleemail@gmail.com</li>
-                <a href="https://github.com/whatawhat" target="_blank"><li>GitHub</li></a>
-                <a href="www.linkedin.com/in/stephanie-davis-56780b3b" target="_blank"><li>LinkedIn</li></a>
-            </ul>
-        </section>
+<div class="container">
+    <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <h2 class="text-center text-left" id="contact">Contact Me</h2>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                <ul class="nav text-center" id="contactsect">
+                    <li class="nav-item">
+                        <a class="foot" href="tel:+4123453146">412-345-3146</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="foot" href="mailto:stephedavis12@gmail.com" target="_blank">stephedavis12@gmail.com</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="foot" href="https://github.com/whatawhat" target="_blank">GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="foot" href="www.linkedin.com/in/stephanie-davis-56780b3b" target="_blank">LinkedIn</a>
+                    </li>
+                
+                    <!-- <li class="nav-item">
+                        <a class="foot" href="www.linkedin.com/in/stephanie-davis-56780b3b" target="_blank">Twitter</a>
+                    </li> -->
+                </ul>
+            </div>
+       
+    </div>
+</div>
 
         <footer id="footer">
             <small>Made with love by Stephanie Davis</small>
         </footer>
     </main>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
 </DOCTYPE>
